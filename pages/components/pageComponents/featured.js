@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-import projects from "../../mockups/projects";
+import projects from "../../mockups/projects.json";
 
 const products = [
   {
