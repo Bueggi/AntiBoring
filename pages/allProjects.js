@@ -327,6 +327,7 @@ export default function AllProjects() {
                       return (
                         <li>
                           <Card
+                            key={project.id}
                             image={project.featureImg}
                             heading={project.projectname}
                             description={project.description}

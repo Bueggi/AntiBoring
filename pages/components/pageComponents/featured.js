@@ -61,6 +61,7 @@ export default function Featured() {
                     const tagcolor = color[tag];
                     return (
                       <span
+                        key={tag}
                         className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${tagcolor} text-gray-800 mx-2`}
                       >
                         {tag}
