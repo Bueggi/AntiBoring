@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     id: 1,
     projectname: "Große Snowboardtour mit Freunden",
@@ -104,3 +104,5 @@ export const projects = [
     },
   },
 ];
+
+export default projects;

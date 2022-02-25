@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const { projects } = require("../../mockups/projects");
+import projects from "../../mockups/projects";
 
 const products = [
   {

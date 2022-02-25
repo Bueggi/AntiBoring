@@ -20,7 +20,7 @@ import { XIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon, PlusSmIcon } from "@heroicons/react/solid";
 import Layout from "./components/Layout";
 import Card from "./components/Card";
-const { projects } = require("./mockups/projects");
+import projects from "./mockups/projects";
 
 const filters = [
   {
