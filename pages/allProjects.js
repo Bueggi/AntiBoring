@@ -126,7 +126,7 @@ export default function AllProjects() {
                     {filters.map((section) => (
                       <Disclosure
                         as="div"
-                        key={section.name}
+                        key={section.id}
                         className="border-t border-gray-200 pt-4 pb-4"
                       >
                         {({ open }) => (
@@ -224,7 +224,7 @@ export default function AllProjects() {
                               className="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
                               checked={newfilters.cars}
                               name="cars"
-                              onClick={handleclick}
+                              onChange={handleclick}
                             />
                             <label className="ml-3 text-sm text-gray-600">
                               Autos
@@ -325,9 +325,8 @@ export default function AllProjects() {
                     .filter((project) => newfilters[project.influencer.gender])
                     .map((project) => {
                       return (
-                        <li>
+                        <li key={project.id}>
                           <Card
-                            key={project.id}
                             image={project.featureImg}
                             heading={project.projectname}
                             description={project.description}

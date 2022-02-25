@@ -29,7 +29,7 @@ const Card = ({ heading, image, id, tags, description }) => {
           <a className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Mehr erfahren
             <svg
-              class="ml-2 -mr-1 w-4 h-4"
+              className="ml-2 -mr-1 w-4 h-4"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"

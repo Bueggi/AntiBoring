@@ -70,7 +70,7 @@ export const projects = [
     },
   },
   {
-    id: 2,
+    id: 3,
     projectname: "HouseParty mit Sarazar",
     description:
       "Valentin Rahmel ist DJ und hat auf allen grossen Festivals aufgelegt. Mit seinen Freunden möchte er die größte HouseParty seines Lebens schmeissen. Mit Ihrer Brand geht das ganze einfach.",

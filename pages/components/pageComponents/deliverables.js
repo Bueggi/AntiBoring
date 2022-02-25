@@ -106,7 +106,7 @@ export default function Deliverables({ project }) {
               Diese Leistungen bekommt ihr GARANTIERT
             </h2>
             <div className="mt-6 text-gray-500 space-y-6">
-              <p className="text-lg">
+              <div className="text-lg">
                 <ul>
                   <li className="mb-4">
                     3 x YouTubeVideo auf dem Hauptkanal
@@ -131,7 +131,7 @@ export default function Deliverables({ project }) {
                     </h3>
                   </li>
                 </ul>
-              </p>
+              </div>
               <p className="text-base leading-7">
                 Alle Leistungen werden vorab vom Creator eingereicht und in
                 einer Abnahmeschleife von euch gefeedbackt.
