@@ -65,7 +65,7 @@ export default function Header() {
                   {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                   <img
                     className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="https://anytag.jp/wp-content/themes/anytag-wp-theme/img/home/hero/banner-hero@2x.png"
+                    src="hintergrund.png"
                     alt=""
                   />
                 </div>
